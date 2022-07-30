@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>css基础 | 流浪的乖鱼儿</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="CSS基础基础语法美化网页，布局页面，设置外观css样式表也是一种标记语言组成：选择器{样式}   给谁改什么样式写在head标签内部style标签内部 123456&lt;style&gt;			p &amp;#123;			color:red;			font-size:12px;			&amp;#125;		&lt;&#x2F;style&gt; 键值对用分号结尾属性与值之间用冒号分割 css选择器标签选择器标签名做选">
+<meta property="og:type" content="article">
+<meta property="og:title" content="css基础">
+<meta property="og:url" content="http://tanyug.github.io/2022/07/30/css%E5%9F%BA%E7%A1%80/index.html">
+<meta property="og:site_name" content="流浪的乖鱼儿">
+<meta property="og:description" content="CSS基础基础语法美化网页，布局页面，设置外观css样式表也是一种标记语言组成：选择器{样式}   给谁改什么样式写在head标签内部style标签内部 123456&lt;style&gt;			p &amp;#123;			color:red;			font-size:12px;			&amp;#125;		&lt;&#x2F;style&gt; 键值对用分号结尾属性与值之间用冒号分割 css选择器标签选择器标签名做选">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-07-30T07:23:55.000Z">
+<meta property="article:modified_time" content="2022-07-30T07:24:15.625Z">
+<meta property="article:author" content="秦玉堂">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="流浪的乖鱼儿" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">流浪的乖鱼儿</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS 订阅"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜索"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://Tanyug.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-css基础" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/07/30/css%E5%9F%BA%E7%A1%80/" class="article-date">
+  <time class="dt-published" datetime="2022-07-30T07:23:55.000Z" itemprop="datePublished">2022-07-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      css基础
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="CSS基础"><a href="#CSS基础" class="headerlink" title="CSS基础"></a>CSS基础</h1><h2 id="基础语法"><a href="#基础语法" class="headerlink" title="基础语法"></a>基础语法</h2><p>美化网页，布局页面，设置外观<br>css样式表也是一种标记语言<br>组成：选择器{样式}   给谁改什么样式<br>写在head标签内部style标签内部</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">			p &#123;</span><br><span class="line">			color:red;</span><br><span class="line">			font-size:12px;</span><br><span class="line">			&#125;</span><br><span class="line">		&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+<p>键值对用分号结尾<br>属性与值之间用冒号分割</p>
+<h2 id="css选择器"><a href="#css选择器" class="headerlink" title="css选择器"></a>css选择器</h2><h3 id="标签选择器"><a href="#标签选择器" class="headerlink" title="标签选择器"></a>标签选择器</h3><p>标签名做选择器：某一类标签全部选出来</p>
+<h3 id="类选择器class"><a href="#类选择器class" class="headerlink" title="类选择器class"></a>类选择器class</h3><p>语法：.类名{属性与值} 可以多次调用</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line"><span class="selector-class">.red</span>&#123;<span class="attribute">color</span>: red;&#125;</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;<span class="selector-tag">ul</span>&gt;</span><br><span class="line">&lt;<span class="selector-tag">li</span> class=&#x27;red&#x27;&gt;冰雨&lt;/<span class="selector-tag">li</span>&gt;</span><br><span class="line">&lt;<span class="selector-tag">li</span>&gt;七里香&lt;/<span class="selector-tag">li</span>&gt;</span><br><span class="line">&lt;/<span class="selector-tag">ul</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>一个标签可以有多个类名 中间用空格隔开<br><code>&lt;div class=&quot;red font35&quot;&gt;</code></p>
+<h3 id="属性选择器id"><a href="#属性选择器id" class="headerlink" title="属性选择器id"></a>属性选择器id</h3><p>属性名做选择器语法：#id名{样式} 只能调用一次，别的不可调用，在使用次数上</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-id">#pink</span>&#123;<span class="attribute">color</span>:pink;&#125;</span><br><span class="line">&lt;<span class="selector-tag">div</span> id=&quot;pink&quot;&gt;迈克尔&lt;/<span class="selector-tag">div</span>&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="通配符选择器"><a href="#通配符选择器" class="headerlink" title="通配符选择器"></a>通配符选择器</h3><p>*所有的标签改为同一个样式<br>*{样式}</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">*&#123;<span class="attribute">margin</span>: <span class="number">0</span>;</span><br><span class="line"><span class="attribute">padding</span>: <span class="number">0</span>;&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="字体属性"><a href="#字体属性" class="headerlink" title="字体属性"></a>字体属性</h2><p>字体类型：font-family<br>body{font-family:’宋体’, ‘微软雅黑’, ‘Microsoft YaHei’;}<br>字体大小：font-size 注意px单位<br>body{font-size:16px;}标题标签比较特殊，需要单独指定大小<br>字体粗细：font-weight<br>font-weight:bold,bolder,lighter<br>也可直接加数字<br>font-weight: 700; 标准为400；700为bold<br>font-style：normal；<br>字体复合属性：简写方式<br>font: font-style font-weight font-size&#x2F;line-height font-family;<br>font: italic 700 16px ‘宋体’;(不能颠倒顺序)<br><strong>前两个可以省略,后两个必须有</strong>：font: 20px,”宋体”;  </p>
+<h2 id="文本属性"><a href="#文本属性" class="headerlink" title="文本属性"></a>文本属性</h2><p>文本颜色：color: 颜色名red或十六进制#ff0000或rgb(255,0,0); 十六进制用最多<br>文本对齐：text-align水平对齐方式 center，right，left（默认）<br>文本装饰：text-decoration underline，overline，line-through，none（默认）<br>取消链接默认下划线 设置a标签为none<br>文本缩进：text-indent：20px或2em；只是首行缩进 em单位，当前元素1个文字大小<br>行间距：line-height：26px；行间距包括文本间距、上下间距   </p>
+<h2 id="css引入方式"><a href="#css引入方式" class="headerlink" title="css引入方式"></a>css引入方式</h2><p>按照引入方式，分为三大类：内部样式表、外部样式表、行内样式表（比较简单的样式）<br>内部样式表：放入style标签内 放入head标签内<br>行内样式表：<code>&lt;div style=&#39;color:red;&#39;&gt;&lt;/div&gt;</code><br>外部样式表：新建后缀为.css文件；里面只有样式<br>在html中使用link标签引入这个文件<code>&lt;link rel=&quot;stylesheet&quot; href=&#39;css文件路径&#39;&gt;</code>  在head标签中  </p>
+<h2 id="Emmet语法"><a href="#Emmet语法" class="headerlink" title="Emmet语法"></a>Emmet语法</h2><h3 id="快速生成html标签"><a href="#快速生成html标签" class="headerlink" title="快速生成html标签"></a>快速生成html标签</h3><p>div*3+tab键<br>ul&gt;li父子关系<br>div+p兄弟关系<br>.nav 类名 #id名默认为div生成的 有类名或id名<br>p.navp生成的 p#two生成<br>生成有序号的.demo$*5tab<br>div{我喜欢你}  内部写内容<br>div{喜欢你}*5<br>div{$}*样式</p>
+<h3 id="快速生成css"><a href="#快速生成css" class="headerlink" title="快速生成css"></a>快速生成css</h3><p>text-align：center<br>tac 加tab就可<br>输入首字母<br>ti2em:text-indent:2em;<br>w100:width:100px;<br>text-decoration：none； tdn</p>
+<h2 id="复合选择器"><a href="#复合选择器" class="headerlink" title="复合选择器"></a>复合选择器</h2><h3 id="后代选择器"><a href="#后代选择器" class="headerlink" title="后代选择器"></a>后代选择器</h3><p>语法：父亲元素  子元素1  子元素2{样式}   中间空格隔开<br>标签或类任意基础选择器都行<br><code>ul li a</code><br><code>.nav li a</code></p>
+<h3 id="子元素选择器"><a href="#子元素选择器" class="headerlink" title="子元素选择器"></a>子元素选择器</h3><p>只能选某元素最近一级，儿子，不能孙子<br>语法: 元素1&gt;元素2{样式}</p>
+<h3 id="并集选择器"><a href="#并集选择器" class="headerlink" title="并集选择器"></a>并集选择器</h3><p>可以选择多组标签，定义相同样式<br>语法：元素1，元素2，元素3{样式}</p>
+<h3 id="伪类选择器"><a href="#伪类选择器" class="headerlink" title="伪类选择器"></a>伪类选择器</h3><p>给链接添加特殊效果<br>前面用冒号：</p>
+<h4 id="链接伪类"><a href="#链接伪类" class="headerlink" title="链接伪类"></a>链接伪类</h4><ul>
+<li>a: link 所有未被访问的链接 </li>
+<li>a: visited 已被访问的链接</li>
+<li>a: hover 鼠标指针位于其上的链接</li>
+<li>a: active 活动链接，鼠标按下未松开时</li>
+</ul>
+<p><strong>注意：</strong> 按这个顺序写，链接需要单独指定样式</p>
+<h4 id="focus伪类选择器"><a href="#focus伪类选择器" class="headerlink" title="focus伪类选择器"></a>focus伪类选择器</h4><p>选取获得焦点（光标）的表单元素input类<br>语法：input：focus{样式} </p>
+<h2 id="元素显示模式"><a href="#元素显示模式" class="headerlink" title="元素显示模式"></a>元素显示模式</h2><p>元素以什么方式进行显示 一般分为块元素和行内元素<br>块元素：独占一行，可设置高度和宽度，宽度默认为100%，里面可以放行内元素  文字类元素不可放块元素<br>行内元素：一行可设置多个，不可直接设置高度和宽度<br>链接里面不可放链接，a里面可以放块级元素<br>行内块元素：img、input、td等标签 高度宽度可以设置、一行可以多个</p>
+<h3 id="元素显示模式的转换"><a href="#元素显示模式的转换" class="headerlink" title="元素显示模式的转换"></a>元素显示模式的转换</h3><p>把行内元素a转换为块元素<br>a{display:block;width:150px;height:50px;}<br>把块元素转为行内元素<br>div{display：inline；}<br>行内元素转为行内块元素<br>span{display:inline-block;}</p>
+<h3 id="单行文字垂直居中"><a href="#单行文字垂直居中" class="headerlink" title="单行文字垂直居中"></a>单行文字垂直居中</h3><p>在盒子里垂直居中：使文字line-height&#x3D;盒子height</p>
+<h2 id="CSS的背景"><a href="#CSS的背景" class="headerlink" title="CSS的背景"></a>CSS的背景</h2><p>背景颜色：h1 {background-color:#6495ed;}<br>背景图片：p{background-image:url(‘paper.gif’);}<br>背景平铺：background-repeat:repeat-x  no-repeat默认平铺<br>背景位置：background-position:right top; x y;(可以为方位名词顺序无影响（若一个省略，则另一个默认居中对齐），或为精确单位，前一个为x，后一个为20px 50px ) 中间空格隔开   可混合使用，前一个为x，后一个为y<br>简写属性：body {background:#ffffff url(‘img_tree.png’) no-repeat right top;}<br>当使用简写属性时，属性值的顺序为：:<br>background-color<br>background-image<br>background-repeat<br>background-attachment  fixed(固定）scoll(滚动)默认 背景图像是否固定或者随着页面的其余部分滚动。<br>background-position<br>顺序不强制 用空格隔开<br><strong>背景色半透明</strong> background: rgba(0,0,0,0.3);0完全透明，1完全不透明 alpha透明度可以写.3省略零<br>直接设置不透明度</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">img &#123;</span><br><span class="line">  opacity: 0.5;</span><br><span class="line">&#125;</span><br><span class="line">img:hover &#123;</span><br><span class="line">  opacity: 1.0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="CSS三大特性"><a href="#CSS三大特性" class="headerlink" title="CSS三大特性"></a>CSS三大特性</h2><h3 id="层叠性"><a href="#层叠性" class="headerlink" title="层叠性"></a>层叠性</h3><p>样式冲突，覆盖，就近原则<br>样式不冲突，不层叠</p>
+<h3 id="继承性"><a href="#继承性" class="headerlink" title="继承性"></a>继承性</h3><p>子标签继承父标签的某些样式<br>行高的继承也可继承，行高不跟单位为当前文字大小的1.5倍</p>
+<h3 id="优先级"><a href="#优先级" class="headerlink" title="优先级"></a>优先级</h3><p>标签，类选择器<br>选择器优先级</p>
+<ul>
+<li>选择器相同，层叠</li>
+<li>选择器不同，由权重执行：标签《类、伪类《id《行内样式《！important</li>
+</ul>
+<p>继承的权重为0<br><strong>权重叠加</strong><br>复合选择器如：<br>ul li{}0,0,0,1+0,0,0,1&#x3D;0,0,0,2<br>li{}0,0,0,1<br>.nav li 0,0,1,0+0,0,0,1&#x3D;0,0,1,1</p>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="列表项标记类型"><a href="#列表项标记类型" class="headerlink" title="列表项标记类型"></a>列表项标记类型</h3><p>list-style-type:none;</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">ul</span><span class="selector-class">.a</span> &#123;<span class="attribute">list-style-type</span>: circle;&#125;</span><br><span class="line"><span class="selector-tag">ul</span><span class="selector-class">.b</span> &#123;<span class="attribute">list-style-type</span>: square;&#125;</span><br><span class="line"> </span><br><span class="line"><span class="selector-tag">ol</span><span class="selector-class">.c</span> &#123;<span class="attribute">list-style-type</span>: upper-roman;&#125;</span><br><span class="line"><span class="selector-tag">ol</span><span class="selector-class">.d</span> &#123;<span class="attribute">list-style-type</span>: lower-alpha;&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="列表项标记的图像"><a href="#列表项标记的图像" class="headerlink" title="列表项标记的图像"></a>列表项标记的图像</h3><p>list-style-image:url(‘url’);</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">ul</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="attribute">list-style-image</span>: <span class="built_in">url</span>(<span class="string">&#x27;sqpurple.gif&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="简写属性：type-image"><a href="#简写属性：type-image" class="headerlink" title="简写属性：type image"></a>简写属性：type image</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    list-style: square url(&quot;sqpurple.gif&quot;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="移除默认标记和缩进"><a href="#移除默认标记和缩进" class="headerlink" title="移除默认标记和缩进"></a>移除默认标记和缩进</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">ul &#123;</span><br><span class="line">  list-style-type: none;</span><br><span class="line">  margin: 0;</span><br><span class="line">  padding: 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><h3 id="表格边框"><a href="#表格边框" class="headerlink" title="表格边框"></a>表格边框</h3><p>双边框</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">table, th, td</span><br><span class="line">&#123;</span><br><span class="line">    border: 1px solid black;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>折叠边框——单边框<br>border-collapse 属性设置表格的边框是否被折叠成一个单一的边框或隔开：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">table</span><br><span class="line">&#123;</span><br><span class="line">    border-collapse:collapse;</span><br><span class="line">&#125;</span><br><span class="line">table,th, td</span><br><span class="line">&#123;</span><br><span class="line">    border: 1px solid black;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="表格高度和宽度"><a href="#表格高度和宽度" class="headerlink" title="表格高度和宽度"></a>表格高度和宽度</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">table </span><br><span class="line">&#123;</span><br><span class="line">    width:100%;</span><br><span class="line">&#125;</span><br><span class="line">th</span><br><span class="line">&#123;</span><br><span class="line">    height:50px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="表格文字对齐"><a href="#表格文字对齐" class="headerlink" title="表格文字对齐"></a>表格文字对齐</h3><p>text-align属性设置水平对齐方式，向左，右，或中心：<br>vertical-align垂直对齐属性设置垂直对齐，比如顶部，底部或中间：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">td</span><br><span class="line">&#123;</span><br><span class="line">	text-align:right;</span><br><span class="line">    height:50px;</span><br><span class="line">    vertical-align:bottom;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>需控制边框和表格内容之间的间距padding:15px;<br>向<code>&lt;th&gt;</code>和 <code>&lt;td&gt;</code>添加 border-bottom 属性，以实现水平分隔线：</p>
+<figure class="highlight plaintext"><figcaption><span>td &#123;</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">  border-bottom: 1px solid #ddd;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>鼠标悬停表格<br>tr:hover {background-color: #f5f5f5;}</p>
+<h2 id="盒子模型"><a href="#盒子模型" class="headerlink" title="盒子模型"></a>盒子模型</h2><p>组成：margin、border、padding、content</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">div &#123;</span><br><span class="line">    width: 300px;</span><br><span class="line">    border: 25px solid green;</span><br><span class="line">    padding: 25px;</span><br><span class="line">    margin: 25px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>最终元素的总宽度计算公式是这样的：<br>总元素的宽度&#x3D;宽度+左填充+右填充+左边框+右边框+左边距+右边距<br>元素的总高度最终计算公式是这样的：<br>总元素的高度&#x3D;高度+顶部填充+底部填充+上边框+下边框+上边距+下边距</p>
+<h3 id="border边框"><a href="#border边框" class="headerlink" title="border边框"></a>border边框</h3><h4 id="边框样式-boder-style"><a href="#边框样式-boder-style" class="headerlink" title="边框样式 boder-style"></a>边框样式 boder-style</h4><p>none - 定义无边框<br>hidden - 定义隐藏边框<br>border-style 属性可以设置一到四个值（用于上边框、右边框、下边框和左边框）<br>border-width 属性指定四个边框的宽度。<br>border-color 边框颜色<br>设置四个值：分别为上右下左<br>三个值：上，右左，下<br>两个值：上下、右左<br>可分别设置个边：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">p</span><br><span class="line">&#123;</span><br><span class="line">    border-top-style:dotted;</span><br><span class="line">    border-right-style:solid;</span><br><span class="line">    border-bottom-style:dotted;</span><br><span class="line">    border-left-style:solid;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>圆角边框</strong>：border-radius:5px; 可以设置四个值：左上顺时针，两个值时对角线为一对。<br>也可分开写：border-top-left-radius:20px; top left不可颠倒<br>也可以使用百分比形式 圆形为半径为宽度的一半，或者50%。<br>圆角矩形：设置为高度的一半；</p>
+<h4 id="边框"><a href="#边框" class="headerlink" title="边框"></a>边框</h4><p>边框阴影语法：box-shadow: h-shadow v-shadow blur spread color inset;<br>box-shadow: 10px 10px 5px #888888;<br>边框图像：border-image: source slice width outset repeat|initial|inherit;<br>border-image: url(border.png) 30 round; </p>
+<p>border-image-source	用于指定要用于绘制边框的图像的位置<br>border-image-slice	图像边界向内偏移<br>border-image-width	图像边界的宽度<br>border-image-outset	用于指定在边框外部绘制 border-image-area 的量<br>border-image-repeat	用于设置图像边界是否应重复（repeat）、拉伸（stretch）或铺满（round）</p>
+<h4 id="简写属性"><a href="#简写属性" class="headerlink" title="简写属性"></a>简写属性</h4><p>宽度、风格、颜色——border:5px solid red;</p>
+<h4 id="表格边框-1"><a href="#表格边框-1" class="headerlink" title="表格边框"></a>表格边框</h4><p>table,td{border:1px solid pink;}</p>
+<h3 id="轮廓outline属性"><a href="#轮廓outline属性" class="headerlink" title="轮廓outline属性"></a>轮廓outline属性</h3><p>轮廓（outline）是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用<br>outline-style<br>outline-color<br>outline-width<br>outline-offset 轮廓偏移：在元素的轮廓与边框之间添加空间。元素及其轮廓之间的空间是透明的。<br>outline<br>简写属性：宽度、风格、颜色</p>
+<h3 id="margin边距属性"><a href="#margin边距属性" class="headerlink" title="margin边距属性"></a>margin边距属性</h3><p>可以设置为以下值<br>auto - 浏览器来计算外边距<br>length - 以 px、pt、cm 等单位指定外边距<br>% - 指定以包含元素宽度的百分比计的外边距<br>inherit - 指定应从父元素继承外边距<br>可单设各边</p>
+<figure class="highlight plaintext"><figcaption><span>&#123;</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">  margin-top: 100px;</span><br><span class="line">  margin-bottom: 100px;</span><br><span class="line">  margin-right: 150px;</span><br><span class="line">  margin-left: 80px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>简写同border</p>
+<h4 id="块级盒子水平居中"><a href="#块级盒子水平居中" class="headerlink" title="块级盒子水平居中"></a>块级盒子水平居中</h4><p>要设置width，margin-left：auto；或margin：0 auto；</p>
+<h4 id="行内元素和行内块元素水平居中"><a href="#行内元素和行内块元素水平居中" class="headerlink" title="行内元素和行内块元素水平居中"></a>行内元素和行内块元素水平居中</h4><p>给其父级元素添加text-align:center;</p>
+<h4 id="外边距合并"><a href="#外边距合并" class="headerlink" title="外边距合并"></a>外边距合并</h4><p><strong>嵌套快元素塌陷</strong><br>嵌套块元素，父子元素同时有外边距，父元素会有较大外边距<br>解决方法：</p>
+<ol>
+<li>为父亲添加边框transparent</li>
+<li>为父亲定义内边距padding</li>
+<li>为父亲添加overflow：hidden；比较简单，不改变盒子大小</li>
+</ol>
+<p><strong>清除内外边距</strong><br>*{padding&#x3D;0；<br>margin&#x3D;0；}<br>css第一行代码<br><strong>注意</strong>行内元素一般只设置左右内外边距</p>
+<h3 id="padding填充属性"><a href="#padding填充属性" class="headerlink" title="padding填充属性"></a>padding填充属性</h3><p>可以设置为length	定义一个固定的填充(像素, pt, em,等)<br>%	使用百分比值定义一个填充<br>单设各边属性<br>padding-top:25px;<br>padding-bottom:25px;<br>padding-right:50px;<br>padding-left:50px;<br>简写属性：同border<br><strong>注意</strong>：若不指定盒子width和height，则padding不会撑开盒子</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://tanyug.github.io/2022/07/30/css%E5%9F%BA%E7%A1%80/" data-id="cl67kq52p0000f0v5fbsm3qdh" data-title="css基础" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2022/07/30/css%E4%B8%AD%E7%BA%A7/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">前一篇</strong>
+      <div class="article-nav-title">
+        
+          css中级
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2022/07/30/html%E5%9F%BA%E7%A1%80/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">html基础</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/07/">七月 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/07/30/js%E5%9F%BA%E7%A1%80/">js基础</a>
+          </li>
+        
+          <li>
+            <a href="/2022/07/30/html%E5%92%8Ccss%E6%8F%90%E9%AB%98/">html和css提高</a>
+          </li>
+        
+          <li>
+            <a href="/2022/07/30/css%E9%AB%98%E7%BA%A7/">css高级</a>
+          </li>
+        
+          <li>
+            <a href="/2022/07/30/css%E4%B8%AD%E7%BA%A7/">css中级</a>
+          </li>
+        
+          <li>
+            <a href="/2022/07/30/css%E5%9F%BA%E7%A1%80/">css基础</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 秦玉堂<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"live2d-widget-model-shizuku"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true}});</script></body>
+</html>
